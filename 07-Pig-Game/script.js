@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-const btnNew = document.querySelector('.btn--new');
-const btnRoll = document.querySelector('.btn--roll');
-const btnHold = document.querySelector('.btn--hold');
-const diceEl = document.querySelector('.dice');
+const btnNew = document.querySelector(".btn--new");
+const btnRoll = document.querySelector(".btn--roll");
+const btnHold = document.querySelector(".btn--hold");
+const diceEl = document.querySelector(".dice");
 const sectionEl = (turn) => document.querySelector(`.player--${turn}`);
 const scoreEl = (turn) => document.querySelector(`#score--${turn}`);
 const currentEl = (turn) => document.querySelector(`#current--${turn}`);
@@ -15,36 +15,36 @@ const init = function () {
   turn = 0;
   currentScore = 0;
   gamePaused = false;
-  diceEl.style.display = 'none';
-  scoreEl(0).textContent = '0';
-  scoreEl(1).textContent = '0';
-  currentEl(0).textContent = '0';
-  currentEl(1).textContent = '0';
-  sectionEl(0).classList.add('player--active');
-  sectionEl(0).classList.remove('player--winner');
-  sectionEl(1).classList.remove('player--winner', 'player--active');
+  diceEl.style.display = "none";
+  scoreEl(0).textContent = "0";
+  scoreEl(1).textContent = "0";
+  currentEl(0).textContent = "0";
+  currentEl(1).textContent = "0";
+  sectionEl(0).classList.add("player--active");
+  sectionEl(0).classList.remove("player--winner");
+  sectionEl(1).classList.remove("player--winner", "player--active");
 };
 init();
 
-btnNew.addEventListener('click', init);
+btnNew.addEventListener("click", init);
 
-btnRoll.addEventListener('click', function () {
+btnRoll.addEventListener("click", function () {
   if (gamePaused) return;
 
   const roll = Math.trunc(Math.random() * 6) + 1;
-  diceEl.src = `images/dice-${roll}.png`;
-  diceEl.style.display = 'block';
+  diceEl.src = `/07-Pig-Game/images/dice-${roll}.png`;
+  diceEl.style.display = "block";
 
   roll !== 1 ? addCurrentScore(roll) : switchTurn();
 });
 
-btnHold.addEventListener('click', function () {
+btnHold.addEventListener("click", function () {
   if (gamePaused) return;
 
   addScore(currentScore);
 
   if (scores[turn] >= 100) {
-    sectionEl(turn).classList.add('player--winner');
+    sectionEl(turn).classList.add("player--winner");
     gamePaused = true;
   } else {
     switchTurn();
@@ -63,8 +63,8 @@ function addCurrentScore(amount) {
 
 function switchTurn() {
   currentScore = 0;
-  currentEl(turn).textContent = '0';
-  sectionEl(turn).classList.toggle('player--active');
+  currentEl(turn).textContent = "0";
+  sectionEl(turn).classList.toggle("player--active");
   turn = turn === 0 ? 1 : 0;
-  sectionEl(turn).classList.toggle('player--active');
+  sectionEl(turn).classList.toggle("player--active");
 }
