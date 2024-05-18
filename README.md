@@ -2,91 +2,92 @@
 
 [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course)
 
-Table of Contents
+## Table of Contents
 
 - [Notes for JS Course](#notes-for-js-course)
-- [Section 2: JavaScript Fundamentals - Part 1](#section-2-javascript-fundamentals---part-1)
-  - [Miscellaneous](#miscellaneous)
-  - [Linking a JS file](#linking-a-js-file)
-  - [Data types](#data-types)
-  - [let, const and var](#let-const-and-var)
-  - [Basic operators](#basic-operators)
-    - [Math operators](#math-operators)
-    - [Assignment operators](#assignment-operators)
-  - [Type Conversion](#type-conversion)
-  - [Type Coercion](#type-coercion)
-  - [Falsey values](#falsey-values)
-  - [Equality Operators: == vs. ===](#equality-operators--vs-)
-  - [Logical operators](#logical-operators)
-  - [Switch case](#switch-case)
-  - [The Conditional (Ternary) Operator](#the-conditional-ternary-operator)
-- [Section 3: JavaScript Fundamentals - Part 2](#section-3-javascript-fundamentals---part-2)
-  - [Strict mode](#strict-mode)
-  - [Function declarations vs expressions](#function-declarations-vs-expressions)
-  - [Arrow functions](#arrow-functions)
-  - [Arrays](#arrays)
-    - [Array functions](#array-functions)
-  - [Objects](#objects)
-  - [For-loop](#for-loop)
-  - [While-loop](#while-loop)
-- [Section 5: Developer Skills \& Editor Setup](#section-5-developer-skills--editor-setup)
-  - [Debugging](#debugging)
-- [Section 7: JavaScript in the Browser: DOM and Events Fundamentals](#section-7-javascript-in-the-browser-dom-and-events-fundamentals)
-  - [DOM manipulation](#dom-manipulation)
-- [Section 8: How JavaScript Works Behind the Scenes](#section-8-how-javascript-works-behind-the-scenes)
-  - [How JS works bts: Execution Context](#how-js-works-bts-execution-context)
-    - [Variable environment](#variable-environment)
-      - [Arguments object](#arguments-object)
-    - [Scope chain](#scope-chain)
-    - [`this` keyword](#this-keyword)
-    - [Regular functions vs Arrow functions](#regular-functions-vs-arrow-functions)
-  - [How JS works bts: Hoisting and Temporal Dead Zone](#how-js-works-bts-hoisting-and-temporal-dead-zone)
-  - [Primatives vs Objects](#primatives-vs-objects)
-- [Section 9: Data Structures, Modern Operators and Strings](#section-9-data-structures-modern-operators-and-strings)
-  - [Destructuring Arrays](#destructuring-arrays)
-  - [Destructuring Objects](#destructuring-objects)
-  - [The Spread operator (...)](#the-spread-operator-)
-  - [Rest patterns and parameters](#rest-patterns-and-parameters)
-  - [Short Circuiting (\&\& and ||)](#short-circuiting--and-)
-  - [The Nullish Coalescing Operator (??)](#the-nullish-coalescing-operator-)
-  - [Logical Assignment Operators (||= ??= \&\&=)](#logical-assignment-operators---)
-  - [for-of loop](#for-of-loop)
-  - [Enhanced Object Literals](#enhanced-object-literals)
-  - [Optional Chaining](#optional-chaining)
-  - [Looping Objects: Object keys, Values and Entries](#looping-objects-object-keys-values-and-entries)
-  - [Sets](#sets)
-  - [Maps: Fundamentals](#maps-fundamentals)
-  - [Maps: Iteration](#maps-iteration)
-  - [Which data structure to use?](#which-data-structure-to-use)
-  - [Working with Strings - Part 1](#working-with-strings---part-1)
-  - [Working with Strings - Part 2](#working-with-strings---part-2)
-  - [Working with Strings - Part 3](#working-with-strings---part-3)
-- [Section 10: A Closer Look at Functions](#section-10-a-closer-look-at-functions)
-  - [Default Parameters](#default-parameters)
-  - [Functions Accepting Callback Functions](#functions-accepting-callback-functions)
-  - [Functions Returning Functions](#functions-returning-functions)
-  - [The call and apply Methods](#the-call-and-apply-methods)
-  - [The bind method](#the-bind-method)
-  - [Immediately Invoked Function Expressions (IIFE)](#immediately-invoked-function-expressions-iife)
-  - [Closures](#closures)
-- [Section 11: Working with Arrays](#section-11-working-with-arrays)
-  - [Simple Array Methods](#simple-array-methods)
-  - [The new at Method](#the-new-at-method)
-  - [Looping Arrays: forEach](#looping-arrays-foreach)
-  - [forEach with Maps and Sets](#foreach-with-maps-and-sets)
-  - [The map Method](#the-map-method)
-  - [The filter Method](#the-filter-method)
-  - [The reduce Method](#the-reduce-method)
-  - [The find Method](#the-find-method)
-  - [The findIndex Method](#the-findindex-method)
-  - [some and every](#some-and-every)
-  - [flat and flatMap](#flat-and-flatmap)
-  - [Array Sorting](#array-sorting)
-  - [More Ways of Creating and Filling Arrays](#more-ways-of-creating-and-filling-arrays)
+  - [Table of Contents](#table-of-contents)
+  - [Section 2: JavaScript Fundamentals - Part 1](#section-2-javascript-fundamentals---part-1)
+    - [Miscellaneous](#miscellaneous)
+    - [Linking a JS file](#linking-a-js-file)
+    - [Data types](#data-types)
+    - [let, const and var](#let-const-and-var)
+    - [Basic operators](#basic-operators)
+      - [Math operators](#math-operators)
+      - [Assignment operators](#assignment-operators)
+    - [Type Conversion](#type-conversion)
+    - [Type Coercion](#type-coercion)
+    - [Falsey values](#falsey-values)
+    - [Equality Operators: == vs. ===](#equality-operators--vs-)
+    - [Logical operators](#logical-operators)
+    - [Switch case](#switch-case)
+    - [The Conditional (Ternary) Operator](#the-conditional-ternary-operator)
+  - [Section 3: JavaScript Fundamentals - Part 2](#section-3-javascript-fundamentals---part-2)
+    - [Strict mode](#strict-mode)
+    - [Function declarations vs expressions](#function-declarations-vs-expressions)
+    - [Arrow functions](#arrow-functions)
+    - [Arrays](#arrays)
+      - [Array functions](#array-functions)
+    - [Objects](#objects)
+    - [For-loop](#for-loop)
+    - [While-loop](#while-loop)
+  - [Section 5: Developer Skills \& Editor Setup](#section-5-developer-skills--editor-setup)
+    - [Debugging](#debugging)
+  - [Section 7: JavaScript in the Browser: DOM and Events Fundamentals](#section-7-javascript-in-the-browser-dom-and-events-fundamentals)
+    - [DOM manipulation](#dom-manipulation)
+  - [Section 8: How JavaScript Works Behind the Scenes](#section-8-how-javascript-works-behind-the-scenes)
+    - [How JS works bts: Execution Context](#how-js-works-bts-execution-context)
+      - [Variable environment](#variable-environment)
+        - [Arguments object](#arguments-object)
+      - [Scope chain](#scope-chain)
+      - [`this` keyword](#this-keyword)
+      - [Regular functions vs Arrow functions](#regular-functions-vs-arrow-functions)
+    - [How JS works bts: Hoisting and Temporal Dead Zone](#how-js-works-bts-hoisting-and-temporal-dead-zone)
+    - [Primatives vs Objects](#primatives-vs-objects)
+  - [Section 9: Data Structures, Modern Operators and Strings](#section-9-data-structures-modern-operators-and-strings)
+    - [Destructuring Arrays](#destructuring-arrays)
+    - [Destructuring Objects](#destructuring-objects)
+    - [The Spread operator (...)](#the-spread-operator-)
+    - [Rest patterns and parameters](#rest-patterns-and-parameters)
+    - [Short Circuiting (\&\& and ||)](#short-circuiting--and-)
+    - [The Nullish Coalescing Operator (??)](#the-nullish-coalescing-operator-)
+    - [Logical Assignment Operators (||= ??= \&\&=)](#logical-assignment-operators---)
+    - [for-of loop](#for-of-loop)
+    - [Enhanced Object Literals](#enhanced-object-literals)
+    - [Optional Chaining](#optional-chaining)
+    - [Looping Objects: Object keys, Values and Entries](#looping-objects-object-keys-values-and-entries)
+    - [Sets](#sets)
+    - [Maps: Fundamentals](#maps-fundamentals)
+    - [Maps: Iteration](#maps-iteration)
+    - [Which data structure to use?](#which-data-structure-to-use)
+    - [Working with Strings - Part 1](#working-with-strings---part-1)
+    - [Working with Strings - Part 2](#working-with-strings---part-2)
+    - [Working with Strings - Part 3](#working-with-strings---part-3)
+  - [Section 10: A Closer Look at Functions](#section-10-a-closer-look-at-functions)
+    - [Default Parameters](#default-parameters)
+    - [Functions Accepting Callback Functions](#functions-accepting-callback-functions)
+    - [Functions Returning Functions](#functions-returning-functions)
+    - [The call and apply Methods](#the-call-and-apply-methods)
+    - [The bind method](#the-bind-method)
+    - [Immediately Invoked Function Expressions (IIFE)](#immediately-invoked-function-expressions-iife)
+    - [Closures](#closures)
+  - [Section 11: Working with Arrays](#section-11-working-with-arrays)
+    - [Simple Array Methods](#simple-array-methods)
+    - [The new at Method](#the-new-at-method)
+    - [Looping Arrays: forEach](#looping-arrays-foreach)
+    - [forEach with Maps and Sets](#foreach-with-maps-and-sets)
+    - [The map Method](#the-map-method)
+    - [The filter Method](#the-filter-method)
+    - [The reduce Method](#the-reduce-method)
+    - [The find Method](#the-find-method)
+    - [The findIndex Method](#the-findindex-method)
+    - [some and every](#some-and-every)
+    - [flat and flatMap](#flat-and-flatmap)
+    - [Array Sorting](#array-sorting)
+    - [More Ways of Creating and Filling Arrays](#more-ways-of-creating-and-filling-arrays)
 
-# Section 2: JavaScript Fundamentals - Part 1
+## Section 2: JavaScript Fundamentals - Part 1
 
-## Miscellaneous
+### Miscellaneous
 
 ```js
 alert("Hello, world!");
@@ -103,7 +104,7 @@ let x, y;
 x = y = 25 - 10 - 5;
 ```
 
-## Linking a JS file
+### Linking a JS file
 
 script reference goes at bottom of body
 
@@ -119,7 +120,7 @@ script reference goes at bottom of body
 </html>
 ```
 
-## Data types
+### Data types
 
 - Primative types
   - Boolean: `true, false`
@@ -135,7 +136,7 @@ script reference goes at bottom of body
 typeof "apple"; //string
 ```
 
-## let, const and var
+### let, const and var
 
 `let` and `const` released in 2015 (ES6)
 
@@ -145,9 +146,9 @@ use `const` over `let`, unless data will change
 
 `let` and `const` are block / function scoped. `var` is function scoped
 
-## Basic operators
+### Basic operators
 
-### Math operators
+#### Math operators
 
 `+` addition
 
@@ -159,7 +160,7 @@ use `const` over `let`, unless data will change
 
 `**` power
 
-### Assignment operators
+#### Assignment operators
 
 ```js
 let x = 10 + 5; // 15
@@ -169,14 +170,14 @@ x++; // 101
 x--; // 100
 ```
 
-## Type Conversion
+### Type Conversion
 
 ```js
 Number("44"); // 44
 String(44); // '44'
 ```
 
-## Type Coercion
+### Type Coercion
 
 `+` converts numbers to strings
 
@@ -192,7 +193,7 @@ String(44); // '44'
 5 + 6 + "4" + 9 - 4 - 2; // 1149 - 4 - 2 = 1143
 ```
 
-## Falsey values
+### Falsey values
 
 5 falsey values: `0, '', undefined, null, NaN`
 
@@ -212,7 +213,7 @@ if (money) {
 }
 ```
 
-## Equality Operators: == vs. ===
+### Equality Operators: == vs. ===
 
 TLDR: pretend `==` and `!=` don't exist
 
@@ -231,7 +232,7 @@ TLDR: pretend `==` and `!=` don't exist
 18 == "18"; //true
 ```
 
-## Logical operators
+### Logical operators
 
 ```js
 && //and
@@ -239,7 +240,7 @@ TLDR: pretend `==` and `!=` don't exist
 ! //not
 ```
 
-## Switch case
+### Switch case
 
 ```js
 switch (expression) {
@@ -254,7 +255,7 @@ switch (expression) {
 }
 ```
 
-## The Conditional (Ternary) Operator
+### The Conditional (Ternary) Operator
 
 `condition ? expression(truthy) : expression(falsey)`
 
@@ -262,9 +263,9 @@ switch (expression) {
 `x is ${x > 33 ? "above" : "below"} average`;
 ```
 
-# Section 3: JavaScript Fundamentals - Part 2
+## Section 3: JavaScript Fundamentals - Part 2
 
-## Strict mode
+### Strict mode
 
 `'use strict';` first thing in file
 
@@ -272,7 +273,7 @@ forbits you to do certain things
 
 gives errors rather than failing silently
 
-## Function declarations vs expressions
+### Function declarations vs expressions
 
 ```js
 // function declaration
@@ -286,7 +287,7 @@ const percentageOfWorld = function (population) {
 };
 ```
 
-## Arrow functions
+### Arrow functions
 
 ```js
 // one line
@@ -305,7 +306,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1991, 'John'));
 ```
 
-## Arrays
+### Arrays
 
 ```js
 const people = ["Alice", "Bob", "Charlie"];
@@ -316,7 +317,7 @@ people[people.length() - 1]; // Bob
 people[1] = "Jill";
 ```
 
-### Array functions
+#### Array functions
 
 ```js
 // Add elements
@@ -331,7 +332,7 @@ people.indexOf("Bob"); // 1
 people.includes("Bob"); // true (strict)
 ```
 
-## Objects
+### Objects
 
 ```js
 const person = {
@@ -359,7 +360,7 @@ person["birthYear"] -= 2; // bracket
 person["first" + nameKey] = "Bill"; // bracket
 ```
 
-## For-loop
+### For-loop
 
 ```js
 const voters = ["Alice", "Bob", "Charlie"];
@@ -375,7 +376,7 @@ for (let i = 0; i <= voters.length; i++) {
 }
 ```
 
-## While-loop
+### While-loop
 
 ```js
 const voters = ["Alice", "Bob", "Charlie"];
@@ -387,9 +388,9 @@ while (i <= voters.length) {
 }
 ```
 
-# Section 5: Developer Skills & Editor Setup
+## Section 5: Developer Skills & Editor Setup
 
-## Debugging
+### Debugging
 
 ```js
 console.warn("Hello");
@@ -397,9 +398,9 @@ console.error("Hello");
 console.table(personObject); // show object nicely
 ```
 
-# Section 7: JavaScript in the Browser: DOM and Events Fundamentals
+## Section 7: JavaScript in the Browser: DOM and Events Fundamentals
 
-## DOM manipulation
+### DOM manipulation
 
 ```js
 // change text
@@ -428,9 +429,9 @@ overlay.classList.toggle('hidden');
 if (overlay.classList.contains('hidden'))
 ```
 
-# Section 8: How JavaScript Works Behind the Scenes
+## Section 8: How JavaScript Works Behind the Scenes
 
-## How JS works bts: Execution Context
+### How JS works bts: Execution Context
 
 Contains:
 
@@ -446,13 +447,13 @@ Stores all necessary info for the code to be executed.
 
 ![](notes-images/execution-context.png)
 
-### Variable environment
+#### Variable environment
 
 - `let`, `const`, `var` declarations
 - Functions
 - `arguments` object
 
-#### Arguments object
+##### Arguments object
 
 Arrow functions do **not** have an `arguments` object
 
@@ -469,11 +470,11 @@ const arrow = (b, c) => {
 arrow(0, 1, 2, 3);
 ```
 
-### Scope chain
+#### Scope chain
 
 ![](notes-images/scope-chain.png)
 
-### `this` keyword
+#### `this` keyword
 
 ![](notes-images/this-keyword.png)
 
@@ -504,7 +505,7 @@ const john = {
 john.calcAge(1970);
 ```
 
-### Regular functions vs Arrow functions
+#### Regular functions vs Arrow functions
 
 ```js
 const john = {
@@ -534,7 +535,7 @@ var firstName = "bill";
 john.greet(); // Hey bill
 ```
 
-## How JS works bts: Hoisting and Temporal Dead Zone
+### How JS works bts: Hoisting and Temporal Dead Zone
 
 variables / functions are 'hoisted' to the beginning of code.
 
@@ -570,7 +571,7 @@ const addExp = function (a, b) {
 var addArrow = (a, b) => a + b; // called above: undefined(1, 2)
 ```
 
-## Primatives vs Objects
+### Primatives vs Objects
 
 ![](notes-images/primatives-vs-objects.png)
 
@@ -605,9 +606,9 @@ console.log(john2.family); // [Alice, Bob, Charlie]
 console.log(johnCopy.family); // [Alice, Bob, Charlie]
 ```
 
-# Section 9: Data Structures, Modern Operators and Strings
+## Section 9: Data Structures, Modern Operators and Strings
 
-## Destructuring Arrays
+### Destructuring Arrays
 
 get elements out of Array and assign them to new variables
 
@@ -653,7 +654,7 @@ const [p = 1, q = 1, r = 1] = [8, 9];
 console.log(p, q, r); // 8 9 1 (1 = undefined if default not set)
 ```
 
-## Destructuring Objects
+### Destructuring Objects
 
 ```js
 const restaurant = {
@@ -738,7 +739,7 @@ const {
 console.log(o, c); // 11 23
 ```
 
-## The Spread operator (...)
+### The Spread operator (...)
 
 Gets all elements of an array but doesn't create new variables.
 
@@ -780,7 +781,7 @@ console.log(newRestaurant);
 const restaurantCopy = { ...newRestaurant };
 ```
 
-## Rest patterns and parameters
+### Rest patterns and parameters
 
 Opposite of Spread: Spread unpacks an array, Rest packs an array
 
@@ -828,7 +829,7 @@ restaurant.orderPizza = function (mainIngredient, ...otherIngredients) {
 restaurant.orderPizza("pickles", "cheese", "onions");
 ```
 
-## Short Circuiting (&& and ||)
+### Short Circuiting (&& and ||)
 
 `value1 || value2 || value3`
 
@@ -862,7 +863,7 @@ if (restaurant.orderPizza) {
 restaurant.orderPizza && restaurant.orderPizza("mushroom", "spinach");
 ```
 
-## The Nullish Coalescing Operator (??)
+### The Nullish Coalescing Operator (??)
 
 Introduced in ES2020.
 
@@ -876,7 +877,7 @@ restaurant.numGuests = 0;
 const guests2 = restaurant.numGuests ?? 10; // 0
 ```
 
-## Logical Assignment Operators (||= ??= &&=)
+### Logical Assignment Operators (||= ??= &&=)
 
 Introduced in ES2021
 
@@ -902,7 +903,7 @@ rest1.numGuests ??= 10; // assign value (10) to variable if it's nullish
 rest2.owner &&= "<ANONYMOUS>"; // assign value to variable if it's truthey
 ```
 
-## for-of loop
+### for-of loop
 
 can use `continue` and `break`;
 
@@ -924,7 +925,7 @@ for (const [i, el] of menu.entries()) {
 }
 ```
 
-## Enhanced Object Literals
+### Enhanced Object Literals
 
 Assigning an outside object into an object
 
@@ -978,7 +979,7 @@ const openingHours2 = {
 };
 ```
 
-## Optional Chaining
+### Optional Chaining
 
 Introduced in ES2020
 
@@ -1009,7 +1010,7 @@ const users = [{ name: "John", email: "john@email.com" }];
 console.log(users[0]?.name ?? "users array is empty");
 ```
 
-## Looping Objects: Object keys, Values and Entries
+### Looping Objects: Object keys, Values and Entries
 
 ```js
 // property NAMES
@@ -1030,7 +1031,7 @@ for (const [key, { open, close }] of entries) {
 }
 ```
 
-## Sets
+### Sets
 
 Contains only unique values
 
@@ -1066,7 +1067,7 @@ console.log(new Set(staff).size); // 3
 console.log(new Set("oiegheoruhgosnisgoh").size); // 9
 ```
 
-## Maps: Fundamentals
+### Maps: Fundamentals
 
 Like an Object, but key can be any type
 
@@ -1114,7 +1115,7 @@ console.log(rest.get(arr)); // 'Test'
 console.log(rest.get(document.querySelector("h1"))); // 'heading'
 ```
 
-## Maps: Iteration
+### Maps: Iteration
 
 ```js
 const question = new Map([
@@ -1145,11 +1146,11 @@ console.log(...question.keys());
 console.log(...question.values());
 ```
 
-## Which data structure to use?
+### Which data structure to use?
 
 ![](notes-images/which-data-structure-to-use.png)
 
-## Working with Strings - Part 1
+### Working with Strings - Part 1
 
 ```js
 const airline = "TAP Air Portugal";
@@ -1190,7 +1191,7 @@ airline.slice(-2); // al
 airline.slice(1, -1); // AP Air Portuga
 ```
 
-## Working with Strings - Part 2
+### Working with Strings - Part 2
 
 toLowerCase(), toUpperCase()
 
@@ -1242,7 +1243,7 @@ if (plane2.startsWith("Airbus") && plane2.endsWith("neo")) {
 }
 ```
 
-## Working with Strings - Part 3
+### Working with Strings - Part 3
 
 split()
 
@@ -1294,9 +1295,9 @@ repeat()
 console.log("alert ".repeat(3)); // 'alert alert alert '
 ```
 
-# Section 10: A Closer Look at Functions
+## Section 10: A Closer Look at Functions
 
-## Default Parameters
+### Default Parameters
 
 ```js
 const createBooking = function (
@@ -1313,7 +1314,7 @@ createBooking("LH123", 2, 100);
 createBooking("LH123", undefined, 100);
 ```
 
-## Functions Accepting Callback Functions
+### Functions Accepting Callback Functions
 
 JS has First class functions: a function is simply another 'type' of object.
 
@@ -1344,7 +1345,7 @@ document.body.addEventListener("click", high5);
 ["Alice", "Bob", "Charlie"].forEach(high5);
 ```
 
-## Functions Returning Functions
+### Functions Returning Functions
 
 ```js
 const greet = function (greeting) {
@@ -1359,7 +1360,7 @@ greeterHey("John"); // Hey John
 greet("Hello")("Alice"); // Hello Alice
 ```
 
-## The call and apply Methods
+### The call and apply Methods
 
 manually set the `this` keyword for any function call
 
@@ -1397,7 +1398,7 @@ book.apply(britair, flightData);
 book.call(britair, ...flightData); // rather always use call
 ```
 
-## The bind method
+### The bind method
 
 manually set the `this` keyword for any function call
 
@@ -1428,7 +1429,7 @@ const addTaxRate = (rate) => (value) => value + value * rate;
 const addVAT2 = addTaxRate(0.23); // same as addVAT 👆
 ```
 
-## Immediately Invoked Function Expressions (IIFE)
+### Immediately Invoked Function Expressions (IIFE)
 
 ```js
 (function () {
@@ -1438,7 +1439,7 @@ const addVAT2 = addTaxRate(0.23); // same as addVAT 👆
 (() => console.log("This will ALSO never run again!"))();
 ```
 
-## Closures
+### Closures
 
 🧠: A closure is the closed-over **Variable Environment** of the Execution Context **in which a function was created**, even **after** that Execution Context is gone
 
@@ -1464,9 +1465,9 @@ const boardPassengers = function (n, wait) {
 boardPassengers(180, 3);
 ```
 
-# Section 11: Working with Arrays
+## Section 11: Working with Arrays
 
-## Simple Array Methods
+### Simple Array Methods
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -1526,7 +1527,7 @@ join
 console.log(letters.join("-")); // a-b-c-d-e-f-g-h-i-j
 ```
 
-## The new at Method
+### The new at Method
 
 Released in ES2022
 
@@ -1543,7 +1544,7 @@ console.log(arr.at(-1)); // 64
 console.log("john".at(-1)); // n
 ```
 
-## Looping Arrays: forEach
+### Looping Arrays: forEach
 
 `continue` and `break` don't work in forEach
 
@@ -1567,7 +1568,7 @@ movements.forEach(function (mov, i, arr) {
 });
 ```
 
-## forEach with Maps and Sets
+### forEach with Maps and Sets
 
 ```js
 // map
@@ -1590,7 +1591,7 @@ currenciesUnique.forEach(function (value, _, set) {
 });
 ```
 
-## The map Method
+### The map Method
 
 Similar to `forEach` but doesn't mutate original
 
@@ -1601,7 +1602,7 @@ const eurToUsd = 1.1;
 const movementsUSD = movements.map((mov) => mov * eurToUsd);
 ```
 
-## The filter Method
+### The filter Method
 
 ```js
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
@@ -1610,7 +1611,7 @@ const deposits = movements.filter((mov) => mov > 0);
 const withdrawals = movements.filter((mov) => mov < 0);
 ```
 
-## The reduce Method
+### The reduce Method
 
 ```js
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
@@ -1627,7 +1628,7 @@ const max = movements.reduce(function (acc, mov) {
 }, movements[0]);
 ```
 
-## The find Method
+### The find Method
 
 ```js
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
@@ -1637,13 +1638,13 @@ const firstWithdrawal = movements.find((mov) => mov < 0); // -400
 const account = accounts.find((acc) => acc.owner === "Jessica Davis");
 ```
 
-## The findIndex Method
+### The findIndex Method
 
 ```js
 const index = accounts.findIndex((acc) => acc.pin === pin);
 ```
 
-## some and every
+### some and every
 
 ```js
 // some
@@ -1653,7 +1654,7 @@ console.log(movements.some((mov) => mov > 0));
 console.log(movements.any((mov) => mov > 0));
 ```
 
-## flat and flatMap
+### flat and flatMap
 
 ```js
 // flat
@@ -1670,7 +1671,7 @@ const bankBalance = accounts
 console.log(bankBalance);
 ```
 
-## Array Sorting
+### Array Sorting
 
 `.sort()` mutates original
 
@@ -1688,4 +1689,4 @@ movements.sort((a, b) => a - b);
 console.log(movements);
 ```
 
-## More Ways of Creating and Filling Arrays
+### More Ways of Creating and Filling Arrays
