@@ -2,9 +2,14 @@
 
 [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course)
 
+## About
+
+This course was divided into sections, each focused on teaching a specific JavaScript concept through a lecture and an assignment. In the assignments, you write code to accomplish a particular goal using the knowledge from the lecture, followed by guidance on how the code should ideally be written. The HTML and CSS in the provided links were supplied by the course, and I developed the functionality using JavaScript based on a design spec. Most course sections don't include a web interface; instead, they involve writing JavaScript code directly in the browser's console, so a web interface isn't shown for those sections.
+
 ## Table of Contents
 
 - [Notes for JS Course](#notes-for-js-course)
+  - [About](#about)
   - [Table of Contents](#table-of-contents)
   - [Section 2: JavaScript Fundamentals - Part 1](#section-2-javascript-fundamentals---part-1)
     - [Miscellaneous](#miscellaneous)
