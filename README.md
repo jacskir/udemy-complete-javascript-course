@@ -450,7 +450,7 @@ Stores all necessary info for the code to be executed.
 
 **One** Global Execution Context, **One** Execution Context per function
 
-![](notes-images/execution-context.png)
+![](assets/images/notes-images/execution-context.png)
 
 #### Variable environment
 
@@ -477,11 +477,11 @@ arrow(0, 1, 2, 3);
 
 #### Scope chain
 
-![](notes-images/scope-chain.png)
+![](assets/images/notes-images/scope-chain.png)
 
 #### `this` keyword
 
-![](notes-images/this-keyword.png)
+![](assets/images/notes-images/this-keyword.png)
 
 ```js
 "use strict";
@@ -578,7 +578,7 @@ var addArrow = (a, b) => a + b; // called above: undefined(1, 2)
 
 ### Primatives vs Objects
 
-![](notes-images/primatives-vs-objects.png)
+![](assets/images/notes-images/primatives-vs-objects.png)
 
 ```js
 // creates a shallow copy (only copies first level, not deep clone)
@@ -1153,7 +1153,7 @@ console.log(...question.values());
 
 ### Which data structure to use?
 
-![](notes-images/which-data-structure-to-use.png)
+![](assets/images/notes-images/which-data-structure-to-use.png)
 
 ### Working with Strings - Part 1
 
